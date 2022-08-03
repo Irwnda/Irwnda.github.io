@@ -1,0 +1,56 @@
+body {
+  background-color: #fafafa !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #232631;
+  padding-bottom: 2px;
+}
+
+nav ul li a:hover {
+  /* border-bottom: 2px solid #5a4fcf; */
+  color: #5a4fcf;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid #5a4fcf;
+}
+
+nav ul li a.active:hover {
+  color: #232631;
+}
+.search {
+  position: relative;
+  color: #858585;
+}
+
+.search input {
+  height: 56px;
+  text-indent: 25px;
+  border-radius: 12px;
+  border-width: 2px;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+.cta button {
+  background: rgba(90, 79, 207, 0.1);
+  color: #5a4fcf;
+  border-radius: 12px;
+  border: none;
+}
