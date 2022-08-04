@@ -7,7 +7,7 @@
     <title>Resto - Restoran Landing Page</title>
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,9 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
   </head>
   <body>
+    <!-- Header -->
     <div class="container nav d-flex justify-content-between mt-4">
       <nav>
         <ul class="d-flex gap-3 align-items-center h-100">
@@ -40,7 +41,7 @@
         </ul>
       </nav>
       <div class="logo d-flex align-items-center">
-        <img src="/assets/Logo.png" alt="Logo" height="38px" />
+        <img src="assets/Logo.png" alt="Logo" height="38px" />
       </div>
       <div class="cta d-flex gap-3">
         <div class="search">
@@ -54,6 +55,9 @@
         <button class="px-4 py-3">Log In</button>
       </div>
     </div>
+    <!-- End of Header -->
+
+    <!-- Ads Banner -->
     <div class="container ads d-flex gap-5">
       <div class="restaurant position-relative">
         <div class="info position-absolute gap-4 d-flex flex-column">
@@ -87,7 +91,7 @@
           </div>
         </div>
         <div class="image">
-          <img src="/assets/image4.png" alt="" />
+          <img src="assets/image4.png" alt="" />
         </div>
       </div>
       <div class="restaurant position-relative">
@@ -122,11 +126,60 @@
           </div>
         </div>
         <div class="image">
-          <img src="/assets/image4-1.png" alt="" />
+          <img src="assets/image4-1.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End of Ads Banner -->
+
+    <!-- Benefits -->
+    <div class="benefit container">
+      <div class="intro text-center">Special Benefit For You</div>
+      <div class="title text-center">Why You Should Choose Us?</div>
+      <div class="benefit-list row gap-4">
+        <div class="card col-sm">
+          <div class="icon">
+            <i class="fa-solid fa-percent"></i>
+          </div>
+          <div class="benefit-title">Extra Discounts</div>
+          <div class="benefit-description">
+            Get your special discount by using our reservation
+          </div>
+          <button>View Details <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="card col-sm">
+          <div class="icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="benefit-title">Come and Eat</div>
+          <div class="benefit-description">
+            Get your own table quickly & without waiting in line
+          </div>
+          <button>View Details <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="card col-sm">
+          <div class="icon">
+            <i class="fa-solid fa-sack-dollar"></i>
+          </div>
+          <div class="benefit-title">No Extra Fee</div>
+          <div class="benefit-description">
+            Get tax free if you want to order food and make a reservation
+          </div>
+          <button>View Details <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="card col-sm">
+          <div class="icon">
+            <i class="fa-solid fa-spray-can-sparkles"></i>
+          </div>
+          <div class="benefit-title">Guaranteed Cleanliness</div>
+          <div class="benefit-description">
+            We ensure the cleanliness of the place as well as the food
+          </div>
+          <button>View Details <i class="fa-solid fa-angle-right"></i></button>
         </div>
       </div>
     </div>
 
-    <script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
