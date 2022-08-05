@@ -86,7 +86,7 @@ nav ul li a.active:hover {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  width: 390px;
+  width: min(100%, 390px);
   z-index: 1;
 }
 
@@ -95,7 +95,7 @@ nav ul li a.active:hover {
   display: inline-block;
 }
 
-.ads .info .restaurant-name {
+.restaurant-name {
   color: #232631;
   font-size: 22px;
   font-weight: 600;
@@ -259,4 +259,57 @@ nav ul li a.active:hover {
 
 .featured .col-2 .featured-item .info.hidden {
   display: none !important;
+}
+
+.city-restaurant {
+  margin-top: 120px;
+}
+
+.city-restaurant button {
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 12px 24px;
+  color: #656565;
+}
+
+.city-restaurant .near-restaurant {
+  height: 475px;
+  background-image: url("assets/image\ 8.png");
+  border-radius: 24px;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.city-restaurant .near-restaurant button {
+  background-color: #fdc886;
+}
+
+.city-restaurant .near-restaurant .near-restaurant-item {
+  height: 100%;
+}
+
+.near-restaurant .restaurant-name {
+  font-size: 14px;
+}
+
+.featured-item .restaurant-name {
+  font-size: 18px;
+}
+
+.near-restaurant .price {
+  font-size: 14px;
+}
+
+.city-restaurant .cta-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.city-restaurant button {
+  background-color: #fdc886;
+  color: #232631;
+  font-weight: 600;
 }
