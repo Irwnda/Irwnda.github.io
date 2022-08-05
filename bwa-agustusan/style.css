@@ -220,12 +220,12 @@ nav ul li a.active:hover {
   width: 340px;
 }
 
-.featured .row button {
+button {
   background-color: #fdc886;
   padding: 12px 24px;
   border: none;
   color: #232631;
-  border-radius: 12px;
+  border-radius: 12px !important;
   margin-top: 56px;
 }
 
@@ -312,4 +312,121 @@ nav ul li a.active:hover {
   background-color: #fdc886;
   color: #232631;
   font-weight: 600;
+}
+
+.expert {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.expert .chef-image {
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.expert .chef-image img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.expert .chef-image .experience {
+  padding: 24px;
+  border-radius: 24px;
+  right: 5%;
+  top: 15%;
+  background-color: #fff;
+}
+
+.expert .chef-image .experience .icon {
+  color: #fdc886;
+  background-color: #fff7ed;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.expert .chef-image .experience .years {
+  margin-top: 12px;
+  color: #232631;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.expert .chef-image .experience .desc {
+  color: #656565;
+}
+
+.expert .chef-image .position {
+  padding: 24px;
+  border-radius: 24px;
+  left: 0;
+  bottom: 15%;
+  background-color: #fff;
+}
+
+.expert .chef-image .position .work-place {
+  width: 96px;
+  height: 132px;
+}
+
+.expert .chef-image .position .desc {
+  color: #656565;
+}
+
+.expert .chef-image .position .restaurant-name {
+  color: #232631;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.expert .chef-image .position .cta {
+  color: #fdc886;
+  font-weight: 600;
+  cursor: pointer;
+}
+.expert .chef-image .position .work-place img {
+  border-radius: 12px;
+  height: 100%;
+}
+
+.expert .chef {
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.expert .chef:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.expert .chef .food {
+  color: #656565;
+  text-transform: uppercase;
+}
+
+.expert .chef .chef-name {
+  color: #232631;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.expert .chef .location {
+  color: #656565;
+  font-size: 14px;
+}
+
+.expert .chef .right {
+  color: #fdc886;
+  display: none;
+}
+
+.expert .chef:hover .right {
+  display: block;
+}
+
+.expert button {
+  margin-top: 24px;
 }
